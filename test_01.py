@@ -9,4 +9,5 @@ import pandas as pd
 url = "http://www.panphol.com/data/page/stockprice/ADVANC#"
 data = pd.read_html(url)
 #print(data[0])
+
 print(data[0].iloc[0,1])
